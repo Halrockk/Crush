@@ -1,20 +1,30 @@
 const CONFIG = {
-    titleWeb: "Gửi crush của tớ",
-    introTitle: 'Crush yêu dấu',
-    introDesc: `Trái đất vốn lạ thường
-    Mà sao em cứ đi nhầm đường
-    Lạc vào tim anh lẻ loi
-    Đằng sau chữ yêu đây là thương`,
+    titleWeb: "Gửi Thảo",
+    introTitle: 'He luu Thảo',
+    introDesc: `Huy có điều này muốn nói với Thảo mấy bữa nay rồi
+    bây giờ mới dám nói
+    Thảo nhớ đọc nhoaaa!!!`,
     btnIntro: '^^HiHi^^',
-    title: 'Phải chăng em đã yêu ngay từ cái nhìn đầu tiên 🥰',
-    desc: 'Thoát web là chấp nhận yêu tớ rồi nhé!!!',
-    btnYes: 'Thích lắm <33',
+    title: 'Phải chăng anh đã yêu em ngay từ cái nhìn đầu tiên 🥰',
+    desc: ` 
+    Không biết từ bao giờ, Huy muốn được nhìn thấy Thảo mỗi ngày 🥹
+    
+      Cảm thấy vui khi nhìn Thảo cười 🥳
+    
+      Cảm thấy buồn khi Thảo mệt mỏi 😔
+    
+      Từ lúc nào mà cảm xúc của Thảo đã ảnh hưởng đến tâm trạng Huy 😭
+    
+    Nói tóm lại là Huy chịu hết nổi rồi 😤
+      
+    Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn`,
+    btnYes: 'Đọc tiếp',
     btnNo: 'Không nha :3',
-    question: 'Trên thế giới hơn 7 tỉ người mà sao bạn lại yêu mình <3',
-    btnReply: 'Gửi cho bạn <3',
-    reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Mình biết mà 🥰. Yêu bạn nhiều nhiều 😘😘',
-    messDesc: 'Tối nay, mình qua đón đi chơi nha.',
-    btnAccept: 'Okiiiii lun <3',
-    messLink: 'https://facebook.com/dinhkaito' //link mess của các bạn. VD: /dinhkaito
+    question: 'Làm người yêu, làm bạn gái Huy nhoaaa <3',
+    btnReply: 'Đồng ýyyyyy đi màaaaa',
+    reply: 'Oke',
+    mess: 'Huy biết Thảo sẽ đồng ý mà 🥰. Yêu thì yêu mà không yêu thì yêu',
+    messDesc: 'Chúng mình cứ vậy mãi về sau nhé hẹ hẹ ',
+    btnAccept: 'Love you chụttt chụttt😘',
+    messLink: 'https://halrockk.github.io/Traitim/'
 }
