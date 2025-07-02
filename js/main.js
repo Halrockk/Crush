@@ -11,9 +11,14 @@ $(document).ready(function() {
 })
 
 function init() {
-    document.addEventListener('click', function() {
-var audio = new Audio('sound/hal.mp3');
-audio.play();
+    
+let audio; // Khai báo biến âm thanh toàn cục
+
+document.addEventListener('click', function() {
+    if (!audio) { // Nếu âm thanh chưa được tạo
+        audio = new Audio('sound/hal.mp3');
+        audio.play();
+    }
 });
     document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb
     $('#title').text(CONFIG.title)
