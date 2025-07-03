@@ -1,113 +1,99 @@
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <style>
-        .content {
-            position: relative;
-            z-index: 3;
-        }
+.content {
+position: relative;
+z-index: 3;
+}
 
-        #no {
-            position: absolute;
-            display: inline-block;
-            left: 10%; /* Điều chỉnh vị trí cho cân đối */
-            top: 40vh;
-            -webkit-transition: all 0.1s ease-out;
-            font-size: 16px; /* Kích thước chữ */
-            padding: 5px; /* Tăng padding */
-            color: white; /* Màu chữ đậm hơn */
-        }
+#no {
+position: absolute;
+display: inline-block;
+left: 35%;
+top: 40vh;
+-webkit-transition: all 0.1s ease-out;
+}
 
-        #yes {
-            position: absolute;
-            display: inline-block;
-            left: 60%; /* Điều chỉnh vị trí cho cân đối */
-            top: 40vh;
-            -webkit-transition: all 0.3s ease-out;
-            font-size: 16px; /* Kích thước chữ */
-            padding: 5px; /* Tăng padding */
-            color: white; /* Màu chữ đậm hơn */
-        }
+#yes {
+position: absolute;
+display: inline-block;
+left: 70%;
+top: 40vh;
+-webkit-transition: all 0.3s ease-out;
+}
 
-        #bg {
-            position: fixed;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            opacity: .8;
-            z-index: 0;
-            background-repeat: no-repeat;
-            background-image: url(../img/bg.webp);
-            background-size: cover;
-            background-position: 50%;
-            -webkit-filter: blur(4px);
-        }
+#bg {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+opacity: .8;
+/* height: 100vh; */
+z-index: 0;
+background-repeat: no-repeat;
+background-image: url(../img/bg.webp);
+background-size: cover;
+background-position: 50%;
+-webkit-filter: blur(4px);
+}
 
-        .swal2-image {
-            object-fit: contain;
-        }
+.swal2-image {
+object-fit: contain;
+}
 
-        .swal2-title,
-        .swal2-content {
-            color: white !important; /* Màu chữ đậm hơn */
-            line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
-        }
+.swal2-title,
+.swal2-content {
+color: azure !important;
+}
 
-        .swal2-popup {
-            border-radius: 15px !important;
-        }
+.swal2-popup {
+border-radius: 15px !important;
+}
 
-        header h2 {
-            font-family: 'Dancing Script', cursive; /* Sử dụng font Dancing Script */
-            font-size: 30px; /* Kích thước chữ cho tiêu đề */
-            text-align: center;
-            margin-bottom: 20px;
-            color: white; /* Màu chữ đậm hơn */
-            line-height: 1.2; /* Tăng khoảng cách giữa các dòng */
-        }
+header h2 {
+font-family: 'Arial';
+font-size: 40px;
+text-align: center;
+margin-bottom: 30px;
+color: cyan;
+}
 
-        header h4 {
-            font-family: 'Dancing Script', cursive; /* Sử dụng font Dancing Script */
-            text-align: center;
-            color: white; /* Màu chữ đậm hơn */
-            line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
-        }
+header h4 {
+font-family: 'Arial';
+text-align: center;
+color: chartreuse;
+}
 
-        @media only screen and (max-width: 500px) {
-            header h2 {
-                font-family: 'Dancing Script', cursive; /* Giữ nguyên font chữ */
-                font-size: 24px; /* Kích thước chữ nhỏ hơn cho màn hình nhỏ */
-                text-align: center;
-                margin-bottom: 20px; /* Giảm khoảng cách dưới */
-                color: white; /* Màu chữ đậm hơn */
-                line-height: 1.3; /* Tăng khoảng cách giữa các dòng */
-            }
-            header h4 {
-                font-family: 'Dancing Script', cursive; /* Giữ nguyên font chữ */
-                text-align: center;
-                padding: 10px; /* Giảm khoảng padding */
-                font-size: 20px; /* Tăng kích thước chữ cho h4 */
-                color: white; /* Màu chữ đậm hơn */
-                line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
-            }
-            #no {
-                left: 10%; /* Điều chỉnh vị trí cho cân đối */
-                top: 40vh;
-                font-size: 16px; /* Tăng kích thước một chút */
-                padding: 5px; /* Tăng padding để dễ nhấn */
-                color: white; /* Màu chữ đậm hơn */
-            }
-            #yes {
-                left: 60%; /* Điều chỉnh vị trí cho cân đối */
-                top: 40vh;
-                font-size: 16px; /* Tăng kích thước một chút */
-                padding: 5px; /* Tăng padding để dễ nhấn */
-                color: white; /* Màu chữ đậm hơn */
-            }
-        }
+@media only screen and (max-width: 500px) {
+header h2 {
+font-family: 'sans-serif';
+font-size: 45px;
+text-align: center;
+margin-bottom: 30px;
+}
+header h4 {
+font-family: 'Pacifico';
+text-align: center;
+padding: 20px;
+}
+#no {
+position: absolute;
+display: inline-block;
+left: 7%;
+top: 40vh;
+font-size: 14px;
+padding: 3px;
+-webkit-transition: all 0.1s ease-out;
+}
+#yes {
+position: absolute;
+display: inline-block;
+left: 58%;
+top: 40vh;
+font-size: 14px;
+padding: 3px;
+-webkit-transition: all 0.3s ease-out;
+}
+}
 
-        .swal2-backdrop-show {
-            background-size: 200px 100px !important;
-        }
-    </style>
-</head>
+.swal2-backdrop-show {
+background-size: 200px 100px !important;
+}
