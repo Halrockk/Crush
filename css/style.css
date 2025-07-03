@@ -1,3 +1,61 @@
+header h2 {
+    font-family: 'Arial', sans-serif; /* Sử dụng font chữ sans-serif */
+    font-size: 40px; /* Kích thước chữ cho thiết bị lớn */
+    text-align: center;
+    margin-bottom: 30px;
+    color: cyan;
+}
+
+header h4 {
+    font-family: 'Arial', sans-serif; /* Sử dụng font chữ sans-serif */
+    text-align: center;
+    color: chartreuse;
+}
+
+@media only screen and (max-width: 500px) {
+    header h2 {
+        font-family: 'Arial', sans-serif; /* Giữ nguyên font chữ */
+        font-size: 30px; /* Kích thước chữ nhỏ hơn cho màn hình nhỏ */
+        text-align: center;
+        margin-bottom: 20px; /* Giảm khoảng cách dưới */
+    }
+    header h4 {
+        font-family: 'Arial', sans-serif; /* Giữ nguyên font chữ */
+        text-align: center;
+        padding: 10px; /* Giảm khoảng padding */
+        font-size: 18px; /* Kích thước chữ cho h4 */
+    }
+    #no {
+        left: 10%; /* Điều chỉnh vị trí cho cân đối */
+        top: 40vh;
+        font-size: 16px; /* Tăng kích thước một chút */
+        padding: 5px; /* Tăng padding để dễ nhấn */
+    }
+    #yes {
+        left: 60%; /* Điều chỉnh vị trí cho cân đối */
+        top: 40vh;
+        font-size: 16px; /* Tăng kích thước một chút */
+        padding: 5px; /* Tăng padding để dễ nhấn */
+    }
+}
+Tóm lại:
+Font chữ: Sử dụng Arial hoặc sans-serif cho dễ đọc.
+Kích thước chữ: Giảm kích thước chữ cho tiêu đề và các nút để phù hợp với màn hình nhỏ.
+Căn chỉnh vị trí: Điều chỉnh vị trí các nút để cân đối hơn trên màn hình điện thoại.
+Hãy thử nghiệm với các giá trị này và điều chỉnh theo nhu cầu cụ thể của bạn!
+
+1:57 AM
+cho tôi toàn bộ đoạn mã đã thay mã mới
+
+1:59 AM
+
+Assistant
+
+Dưới đây là toàn bộ đoạn mã CSS đã được điều chỉnh với kiểu chữ và kích thước chữ phù hợp cho màn hình điện thoại iPhone:
+
+css
+
+Copy
 .content {
     position: relative;
     z-index: 3;
@@ -6,17 +64,21 @@
 #no {
     position: absolute;
     display: inline-block;
-    left: 35%;
+    left: 10%; /* Điều chỉnh vị trí cho cân đối */
     top: 40vh;
     -webkit-transition: all 0.1s ease-out;
+    font-size: 16px; /* Kích thước chữ */
+    padding: 5px; /* Tăng padding */
 }
 
 #yes {
     position: absolute;
     display: inline-block;
-    left: 70%;
+    left: 60%; /* Điều chỉnh vị trí cho cân đối */
     top: 40vh;
     -webkit-transition: all 0.3s ease-out;
+    font-size: 16px; /* Kích thước chữ */
+    padding: 5px; /* Tăng padding */
 }
 
 #bg {
@@ -26,7 +88,6 @@
     bottom: 0;
     left: 0;
     opacity: .8;
-    /* height: 100vh; */
     z-index: 0;
     background-repeat: no-repeat;
     background-image: url(../img/bg.webp);
@@ -49,48 +110,43 @@
 }
 
 header h2 {
-    font-family: 'Arial';
-    font-size: 60px;
+    font-family: 'Arial', sans-serif; /* Sử dụng font chữ sans-serif */
+    font-size: 40px; /* Kích thước chữ cho thiết bị lớn */
     text-align: center;
     margin-bottom: 30px;
     color: cyan;
 }
 
 header h4 {
-    font-family: 'Arial';
+    font-family: 'Arial', sans-serif; /* Sử dụng font chữ sans-serif */
     text-align: center;
     color: chartreuse;
 }
 
 @media only screen and (max-width: 500px) {
     header h2 {
-        font-family: 'sans-serif';
-        font-size: 45px;
+        font-family: 'Arial', sans-serif; /* Giữ nguyên font chữ */
+        font-size: 30px; /* Kích thước chữ nhỏ hơn cho màn hình nhỏ */
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px; /* Giảm khoảng cách dưới */
     }
     header h4 {
-        font-family: 'Pacifico';
+        font-family: 'Arial', sans-serif; /* Giữ nguyên font chữ */
         text-align: center;
-        padding: 15px;
+        padding: 10px; /* Giảm khoảng padding */
+        font-size: 18px; /* Kích thước chữ cho h4 */
     }
     #no {
-        position: absolute;
-        display: inline-block;
-        left: 7%;
+        left: 10%; /* Điều chỉnh vị trí cho cân đối */
         top: 40vh;
-        font-size: 14px;
-        padding: 3px;
-        -webkit-transition: all 0.1s ease-out;
+        font-size: 16px; /* Tăng kích thước một chút */
+        padding: 5px; /* Tăng padding để dễ nhấn */
     }
     #yes {
-        position: absolute;
-        display: inline-block;
-        left: 58%;
+        left: 60%; /* Điều chỉnh vị trí cho cân đối */
         top: 40vh;
-        font-size: 14px;
-        padding: 3px;
-        -webkit-transition: all 0.3s ease-out;
+        font-size: 16px; /* Tăng kích thước một chút */
+        padding: 5px; /* Tăng padding để dễ nhấn */
     }
 }
 
