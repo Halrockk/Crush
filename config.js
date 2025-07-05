@@ -19,7 +19,7 @@ const CONFIG = {
     Làm người yêu,Làm bạn gái anh nhoaaa <3`,
     btnReply: 'Đồng ýyyyyy đi màaaaa',
     reply: 'Oke',
-    mess: 'Huy biết Thảo sẽ đồng ý mà 🥰. Yêu thì yêu mà không yêu thì yêu',
+    mess: 'Huy biết Thảo sẽ đồng ý mà 🥰',
     messDesc: 'Chúng mình cứ vậy mãi về sau nhé hẹ hẹ ',
     btnAccept: 'Love you chụttt chụttt😘',
     messLink: 'https://halrockk.github.io/Traitim/'
