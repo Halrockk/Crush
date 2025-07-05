@@ -15,12 +15,11 @@ const CONFIG = {
     
       Từ lúc nào mà cảm xúc của Thảo đã ảnh hưởng đến tâm trạng Huy 😭
     
-    Nói tóm lại là Huy chịu hết nổi rồi 😤
-      
-    Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn`,
+    Nói tóm lại là Huy chịu hết nổi rồi 😤`,
     btnYes: 'Đọc tiếp',
     btnNo: 'Không nha :3',
-    question: 'Làm người yêu, làm bạn gái Huy nhoaaa <3',
+    question: ` Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn
+    Làm người yêu,Làm bạn gái anh nhoaaa <3`,
     btnReply: 'Đồng ýyyyyy đi màaaaa',
     reply: 'Oke',
     mess: 'Huy biết Thảo sẽ đồng ý mà 🥰. Yêu thì yêu mà không yêu thì yêu',
