@@ -8,17 +8,14 @@ const CONFIG = {
     title: 'Phải chăng anh đã yêu em ngay từ cái nhìn đầu tiên 🥰',
     desc: ` 
     Không biết từ bao giờ, Huy muốn được nhìn thấy Thảo mỗi ngày 🥹
-    
-      Cảm thấy vui khi nhìn Thảo cười 🥳
-    
-      Cảm thấy buồn khi Thảo mệt mỏi 😔
-    
-      Từ lúc nào mà cảm xúc của Thảo đã ảnh hưởng đến tâm trạng Huy 😭
-    
+    Cảm thấy vui khi nhìn Thảo cười 🥳
+    Cảm thấy buồn khi Thảo mệt mỏi 😔
+    Từ lúc nào mà cảm xúc của Thảo đã ảnh hưởng đến tâm trạng Huy 😭
     Nói tóm lại là Huy chịu hết nổi rồi 😤`,
     btnYes: 'Đọc tiếp',
     btnNo: 'Không nha :3',
-    question: ` Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn
+    question: ` 
+    Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn.
     Làm người yêu,Làm bạn gái anh nhoaaa <3`,
     btnReply: 'Đồng ýyyyyy đi màaaaa',
     reply: 'Oke',
