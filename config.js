@@ -8,22 +8,21 @@ const CONFIG = {
     title: 'Gửi Thảo 🥰',
     desc: ` 
     Không biết từ bao giờ, 
-    Huy luôn tìm mọi cách để gặp Thảo,
-    Trò chuyện cùng Thảo.
-    Cảm thấy vui khi nhìn Thảo cười 🥳
+    Huy luôn muốn tìm mọi cách để gặp Thảo,
+    muốn được trò chuyện cùng Thảo.
+    Cảm thấy vui khi Thảo vui 🥳
     Cảm thấy buồn mỗi khi Thảo than mệt  😔
     Lạ lùng thật chứ,
-    Chẳng biết bản thân đang bị gì nữa rồi 😭
-    Nói tóm lại là Huy chịu hết nổi rồi 😤`,
+    Huy chẳng biết bản thân mình đang bị gì nữa rồi.
+    Nói tóm lại là Huy chịu hết nổi rồi😭 `,
     btnYes: 'Đọc tiếp',
     btnNo: 'Không nha :3',
     question: ` 
-    Huy muốn được quan tâm, bên cạnh Thảo nhiều hơn.
-    Làm người yêu,Làm bạn gái anh nhoaaa <3`,
+    Làm người yêu anh nha <3`,
     btnReply: 'Đồng ýyyyyy đi màaaaa',
     reply: 'Oke',
     mess: 'Huy biết Thảo sẽ đồng ý mà 🥰',
-    messDesc: 'Chúng mình cứ vậy mãi về sau nhé hẹ hẹ ',
-    btnAccept: 'Love you chụttt chụttt😘',
+    messDesc: 'Chào em công chúa của lòng anh ',
+    btnAccept: 'Còn tiếp nhá😘',
     messLink: 'https://halrockk.github.io/Traitim/'
 }
