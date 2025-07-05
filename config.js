@@ -5,12 +5,15 @@ const CONFIG = {
     bây giờ mới dám nói
     Thảo nhớ đọc nhoaaa!!!`,
     btnIntro: '^^HiHi^^',
-    title: 'Phải chăng anh đã yêu em ngay từ cái nhìn đầu tiên 🥰',
+    title: 'Gửi Thảo 🥰',
     desc: ` 
-    Không biết từ bao giờ, Huy muốn được nhìn thấy Thảo mỗi ngày 🥹
+    Không biết từ bao giờ, 
+    Huy luôn tìm mọi cách để gặp Thảo,
+    Trò chuyện cùng Thảo.
     Cảm thấy vui khi nhìn Thảo cười 🥳
-    Cảm thấy buồn khi Thảo mệt mỏi 😔
-    Từ lúc nào mà cảm xúc của Thảo đã ảnh hưởng đến tâm trạng Huy 😭
+    Cảm thấy buồn mỗi khi Thảo than mệt  😔
+    Lạ lùng thật chứ,
+    Chẳng biết bản thân đang bị gì nữa rồi 😭
     Nói tóm lại là Huy chịu hết nổi rồi 😤`,
     btnYes: 'Đọc tiếp',
     btnNo: 'Không nha :3',
